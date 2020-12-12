@@ -1,11 +1,17 @@
+/* Global */
+
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     padding: 0;
     margin: 0;
 }
+
+/* Main Header */
 #nav {
     text-align: center;
     font-size: 20px;
@@ -15,6 +21,7 @@ body {
 }
 #nav ul {
     margin: 0;
+    padding: 0;
 }
 
 #nav li {
@@ -63,3 +70,13 @@ body {
     color: white;
     text-shadow: 4px 4px 5px black;
 }
+
+
+/* Menu */
+ .MenuHeading {
+     margin-top: 2px;
+     font-size: 5vw;
+     font-family: Langar;
+     text-align: center;
+ }
+
