@@ -4,27 +4,29 @@ body {
     padding: 0;
     margin: 0;
 }
-.nav {
+#nav {
     text-align: center;
     font-size: 20px;
     background-color: rgba(0,0,0,0.55);
+    position: fixed;
+    width: 100%;
 }
-.nav ul {
+#nav ul {
     margin: 0;
 }
 
-.nav li {
+#nav li {
     display: inline;
 }
 
-.nav a {
+#nav a {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
     color:  white;
 }
 
-.nav a:hover {
+#nav a:hover {
    background-color: rgba(0, 0,0, 0.5);
 }
 
@@ -37,12 +39,25 @@ body {
     max-width: 100%;
 }
 
+
 .MainLogo {
-    padding-top: 20px;
     width: 175px;
     height: 175px;
     border-radius: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.LogoPadding {
+    padding-top: 100px;
+    
+}
+
+
+.MainHeading {
+    font-size: 8vw;
+    font-family: Langar;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 5px black;
 }
