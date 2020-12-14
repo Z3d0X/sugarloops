@@ -94,6 +94,7 @@ p {
      margin-block-start: 10px;
      font-size: 6vw;
      color: black;
+     display: flex;
      text-shadow: 2px 2px 3px #31c493;
  }
 
