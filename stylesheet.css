@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -94,22 +98,38 @@ p {
      margin-block-start: 10px;
      font-size: 6vw;
      color: black;
-     display: flex;
      text-shadow: 2px 2px 3px #31c493;
  }
+ 
+
+.MainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* For testing */
+    /* background-color: coral; */
+}
+
+.MenuItem {
+    flex-grow: 1;
+    margin: 15px;
+    /* For testing */
+    /* background-color: darkgoldenrod;  */
+}
 
 
  /* Items */
 .ItemsHeading {
     margin-block-start: 0px;
     margin-block-end: 0px;
-    font-size: 4.5vw;
+    font-size: 20px;
 }
 
 .ItemsDescription {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5vw;
+    font-size: 15px;
 }
 .ItemsImage {
     width: 250px;
@@ -117,4 +137,22 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.ItemsPriceList li{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+
+
+
+/* Footer */
+.Footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #31c493;
 }
