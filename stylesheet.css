@@ -5,6 +5,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{
     margin: 0;
@@ -25,7 +26,7 @@ h1,h2,h3{
 }
 
 
-/* Main Header */
+/* NavBar */
 #nav {
     text-align: center;
     font-size: 20px;
@@ -47,7 +48,7 @@ h1,h2,h3{
     padding: 10px;
     text-decoration: none;
     color: black;
-    font-family: sans-serif;
+    font-family: Lato;
 }
 
 #nav a:hover {
@@ -56,6 +57,8 @@ h1,h2,h3{
 
 
 
+
+/* Header */
 .MainHeader {
     background-color: rgba(0, 0,0, 0.4);
     background-image: url(images/HeaderBackground.jpg);
@@ -88,7 +91,7 @@ h1,h2,h3{
 
 
 /* Menu */
- .MenuHeading {
+.MenuHeading, .OrderHeading {
      font-size: 3em;
      color: black;
      text-shadow: 2px 2px 3px #31c493;
@@ -138,6 +141,20 @@ h1,h2,h3{
     margin: 0; 
 }
 
+/* Order */
+#Order {
+    text-align: center;
+}
+
+#Order img {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
+
 
 
 
@@ -153,4 +170,8 @@ h1,h2,h3{
 .Footer img {
     height: 25px;
     width: 25px;
+}
+
+.Footer a:hover {
+    opacity: 0.7;
 }
