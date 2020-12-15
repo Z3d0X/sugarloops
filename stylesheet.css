@@ -101,14 +101,14 @@ h1,h2,h3{
     flex-direction: row;
     justify-content: flex-start;
     /* For testing */
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 .MenuItem {
     flex-grow: 1;
     margin: 15px;
     /* For testing */
-    background-color: gray; 
+    /* background-color: gray;  */
 }
 
 
