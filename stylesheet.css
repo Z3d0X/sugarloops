@@ -26,6 +26,8 @@ h1,h2,h3{
 }
 
 
+
+
 /* NavBar */
 #nav {
     text-align: center;
@@ -92,9 +94,10 @@ h1,h2,h3{
 
 /* Menu */
 .MenuHeading, .OrderHeading {
-     font-size: 3em;
-     color: black;
-     text-shadow: 2px 2px 3px #31c493;
+    margin-top: 10px;
+    font-size: 3em;
+    color: black;
+    text-shadow: 2px 2px 3px #31c493;
  }
  
 
@@ -120,7 +123,7 @@ h1,h2,h3{
     font-size: 30px;
 }
 
-.ItemsDescription {
+.ItemsDescription, .OrderDescription {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -149,8 +152,8 @@ h1,h2,h3{
 #Order img {
     height: 60px;
     width: 60px;
+    margin: 12px;
 }
-
 
 
 
