@@ -1,0 +1,27 @@
+{
+    "name": "SugarLoops MV",
+    "short_name": "Sugarloops",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "gcm_sender_id": "",
+    "gcm_user_visible_only": true,
+    "start_url": "/?utm_source=homescreen",
+    "permissions": [
+      "gcm"
+    ],
+    "scope": "",
+    "orientation": "portrait",
+    "display": "standalone",
+    "theme_color": "#31c493",
+    "background_color": "#ffffff"
+}
